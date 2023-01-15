@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Recipes !{% endblock %}
+
+{% block body_content %}
+    <h1>TITRE !</h1>
+    <a href="{% url 'recipe_list' %}">Recipe list &raquo; &raquo;</a>
+    <a href="{% url 'tag_list' %}">Tags list &raquo; &raquo;</a>
+{% endblock %}
